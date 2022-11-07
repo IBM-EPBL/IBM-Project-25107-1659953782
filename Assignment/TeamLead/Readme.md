@@ -10,4 +10,4 @@
     It's all about working with Cloud Storage and Watson AI Assistant
 
 ## ASSIGNMENT 4 : 🎯
-    It's all about working with Assignment Kubernetes and Docker 
+    It's all about working with Kubernetes and Docker 
