@@ -4,10 +4,10 @@
 <hr>
 
 ## TEAM MEMBERS 
-> TEAM LEAD - DEENATHAYALAN-S <br>
-> M1_LEAD   - CHUJEETHA-R <br>
-> M2_LEAD   - DHIVESH-D <br>
-> M3_LEAD   - CHANDRU-S <br>
+> TEAM LEAD - DEENATHAYALAN S <br>
+> M1_LEAD   - CHUJEETHA R <br>
+> M2_LEAD   - DHIVESH D <br>
+> M3_LEAD   - CHANDRU S <br>
 
 <hr>
 
