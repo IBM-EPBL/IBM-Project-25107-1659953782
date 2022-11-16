@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+
+    {% block body %}
+
+      <!--main container-->
+    <div class="main">
+        <!--Navigation-->
+        <nav class="nav-items">
+            <div class="logo" ><a href="/">Customer Care Registry</a></div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+            <i class="fa fa-bars"></i>
+            </label>
+            <ul>
+                <li><a  href="/aboutus">About</a></li>
+                <li><a href="/contactus">Contact</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+            </ul>
+    </nav>
+        <!--main section-->
+        <main>
+            <div class="sections">
+                <!--main page-->
+                <section id="home">
+                    <div class="main-img-animation"><div class="bg-img"><img src="{{ url_for('static',filename='image/bg/home.png') }}" alt="Home"></div></div>
+                    <div class="main-company">
+                        <div class="box">
+                            <h1>Customer Care Registry</h1>
+                            <div class="box-row">
+                                <div class="small-box"></div>
+                            <div class="small-box"></div>
+                            <div class="small-box"></div>
+                            </div>
+                        <p>Customer service shouldn't just be a department, it should be the entire company
+                        </p>
+                        <button id="btn"><a href="#about">Read More</a></button>
+                        </div>
+                    </div>
+                </section>
+                <!--about section-->
+                <div class="about" id="about">
+                    <div class="left-col">
+                        <div class="about-box">
+                            <h2>About</h2>
+                            <div class="box-row">
+                                <div class="small-box"></div>
+                                <div class="small-box"></div>
+                                <div class="small-box"></div>
+                            </div>
+                            <p>We design and maintain our websites according to the needs of our customers.While we worked for our clients, the only focus that made us unique is the quality delivery being served at an affordable cost. The design that we had crafted for customers stood unique and made us to propel across the landscape.</p>
+                            <button id="btn"><a href="../about/">Read More</a></button>
+                        </div>
+                    </div>
+                    <div class="right-col">
+                        <img src="{{ url_for('static',filename='image/bg/about.png') }}" alt="about">
+                    </div>
+                </div>
+                <!--services page-->
+                <div class="services" id="services">
+                    <div class="sv">
+                        <div class="sv-title"><h1><span>Services</span></h1></div>
+                        <div class="s-box-container">
+                            <div class="s-box">
+                                <div class="bar"></div>
+                                <img src="{{ url_for('static',filename='image/bg/web development.svg') }}" alt="">
+                                <h1>Web Development</h1>
+                                <div class="bar1"></div>
+                            </div>
+                            <div class="s-box">
+                                <div class="bar"></div>
+                                <img src="{{ url_for('static',filename='image/bg/web host.png') }}" alt="">
+                                <h1>Web Hosting</h1>
+                                <div class="bar1"></div>
+                            </div>
+                            <div class="s-box">
+                                <div class="bar"></div>
+                                <img src="{{ url_for('static',filename='image/bg/digital-marketing.jpg') }}" alt="">
+                                <h1>Digital marketing</h1>
+                                <div class="bar1"></div>
+                            </div>
+                        </div>
+                        <div class="sv-read-more"><span><a href="../services/">Read More</a></span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-dark">
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class=" col-md-3 item">
+                                <h3>Services</h3>
+                                <ul>
+                                    <li><a href="../services/">Web Development</a></li>
+                                    <li><a href="../services/">Web Hosting</a></li>
+                                    <li><a href="../services/">Digital Marketing</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 item">
+                                <h3>About</h3>
+                                <ul>
+                                    <li><a href="../about/">Company</a></li>
+                                    <li><a href="../team/">Team</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 item">
+                                <h3>Contact</h3>
+                                <ul>
+                                    
+                                    <li><a href="mailto:curatedsolution@gmail.com">curatedsolution@gmail.com</a></li>
+                                    <li><a href="tel:6374520688">6374520688</a></li>
+                                </ul>
+                                
+                            </div>
+                            <div class="col-md-3 item">
+                                <h3>Image Credits</h3>
+                                <ul>
+                                    <li><a href="https://www.freepik.com/" target="_blank">Freepik</a></li>
+                                </ul>
+                                
+                            </div>
+                            <div class="col item social">
+                                <a href="https://www.facebook.com/curatedsolution" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/SolutionCurated" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/curatedsolutions/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/curated-solutions-a09239216/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <p class="copyright">Copyright © 2022.All rights resevered</p>
+                    </div>
+                </footer>
+            </div>
+        </main>
+    </div>
+
+      {% endblock %}

@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+
+    {% block body %}
+<nav class="nav-items">
+    <div class="logo" ><a href="/">Customer Care</a></div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+    <i class="fa fa-bars"></i>
+    </label>
+    <ul>
+        <li><a  href="/aboutus">About</a></li>
+        <li><a href="/contactus">Contact</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/register">Register</a></li>
+    </ul>
+</nav>
+<div class="about-container">
+    <div class="about-main">
+        <div class="left-col">
+            <img src="{{ url_for('static',filename='image/bg/aboutus.png') }}" alt="about">
+        </div>
+        <div class="right-col">
+            <div class="right-col-box">
+                <div class="about-title">
+                    <h2>About</h2>
+                </div>
+                <div class="box">
+                    <div class="smallbox"></div>
+                    <div class="smallbox"></div>
+                    <div class="smallbox"></div>
+                </div>
+                <div class="about-content">
+                    <p>We design and maintain our websites according to the needs of our customers. 
+                        While we worked for our clients, the only focus that made us unique is the quality delivery being served at an affordable cost. 
+                        The design that we had crafted for customers stood unique and made us to propel across the landscape.
+                        The company’s expertise is its commitment to offer custom-made web design for every client, from small business websites.
+                        We love the work we do, the clients we work with and the amazing people we work alongside!</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="about-section">
+            <div class="left-col">
+                <div class="about-vision">
+                    <div class="about-vision-title"><h2>Vision</h2></div>
+                    <div class="box">
+                        <div class="smallbox"></div>
+                        <div class="smallbox"></div>
+                        <div class="smallbox"></div>
+                    </div>
+                    <div class="about-vision-content">
+                        <p>
+                            Our team is united to give best to the customers satisfaction.Our team here is to satisfy the customer's needs where we give better than they expect.Here we give the quality delivery at fair cost.The design that is created for customers will be 
+                            unique and will be the best.The team we have is a creative and talented professionals in designing of the contents.We team-mates take great effort and research on the implementation of websites
+                            in a precious way to attain the heading technology.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="about-horizon">
+                    <div class="about-horizon-title"><h2>Horizon</h2></div>
+                    <div class="box">
+                        <div class="smallbox"></div>
+                        <div class="smallbox"></div>
+                        <div class="smallbox"></div>
+                    </div>
+                    <div class="about-horizon-content">
+                        <p>
+                            Curated Solutions initialy emerging as a small partnership company with group of members who are playing an active role in the company.The team consists of web professionals,Coders & Analysts who are pretty good in their skills to support the customers with a huge level of  services focussed on Web Design,Web Development and Mobile Application Development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-founder">
+            <div class="left-col-img">
+                <img src="{{ url_for('static',filename='image/bg/founder.jpg') }}" alt="Founder Chandru">
+            </div>
+            <div class="right-col-about">
+                <div class="founder-name"><span>Chandru.S</span></div>
+                <div class="founder-role"><span>Founder of Curated solution</span></div>
+                <div class="box">
+                    <div class="smallbox"></div>
+                    <div class="smallbox"></div>
+                    <div class="smallbox"></div>
+                </div>
+                <div class="founder-content">
+                    <p>
+                        I am a positive, enthusiastic and competent Web Developer who,has built up a diverse range of skills, qualities and attributes that guarantee I will perform highly in this role.
+                        I take my work as a Web Developer seriously and this means I always ensure my skills are kept up to date within this rapidly changing industry.
+                        There are lots of web developer jobs out there, but I want one where I am going to be challenged and where the skills and qualities that I have built up are going to be put to good use.
+                    </p>
+                </div>
+                <div class="contact">
+                    <a href="/contact">Contact me</a>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="/services">Web Development</a></li>
+                        <li><a href="/services">Web Hosting</a></li>
+                        <li><a href="/services">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="/about">Company</a></li>
+                        <li><a href="/team">Team</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 item">
+                    <h3>Contact</h3>
+                    <ul>
+                        
+                        <li><a href="mailto:curatedsolution@gmail.com">curatedsolution@gmail.com</a></li>
+                        <li><a href="tel:6374520688">6374520688</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="col-md-3 item">
+                    <h3>Image Credits</h3>
+                    <ul>
+                        <li><a href="https://www.freepik.com/" target="_blank">Freepik</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="col item social">
+                    <a href="https://www.facebook.com/curatedsolution" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/SolutionCurated" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/curatedsolutions/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/curated-solutions-a09239216/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+            <p class="copyright">Copyright © 2021.All rights resevered</p>
+        </div>
+    </footer>
+</div>
+{% endblock %}
